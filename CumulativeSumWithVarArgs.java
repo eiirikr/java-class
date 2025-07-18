@@ -34,5 +34,7 @@ public class CumulativeSumWithVarArgs {
         int total = sumCumulative(inputNumbers);
 
         System.out.println("\nTotal sum of cumulative values: " + total);
+
+        scanner.close();
     }
 }
